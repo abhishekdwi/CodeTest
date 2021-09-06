@@ -11,6 +11,7 @@ module.exports = () => {
   options.addArguments("--disable-infobars");
   options.addArguments("--disable-extensions");
   options.headless();
+  //comment it run in headfull mode
 
   const service = new Chrome.ServiceBuilder(chromeDriver.binPath());
 
